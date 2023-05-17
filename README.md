@@ -128,8 +128,7 @@ create table admin
 
 insert into client_info(acount, password, telephone, email) VALUES ('abc','123456','12345678910','10086@qq.com');
 insert into admin(acount, password) values('admin','123456');
-insert into mark_data(id, mark) values(1,'0');  //解释一下，这里的id=1是不变的，后面的mark作为一个标识记号
-//根据发布信息的条数，当每次发布信息的时候，notice的条数都会+1（当连续发布时，只会），然后把这个notice的条数插入到mark字段中
+insert into mark_data(id, mark) values(1,'0');  //解释一下，这里的id=1是不变的，只拿后面的mark作为标识记号，根据发布信息的条数，当每次发布信息的时候，notice的条数都会+1（当连续发布时，只会显示最新的），然后把这个notice的条数插入到mark字段中。
 
 ```
 
