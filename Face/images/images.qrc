@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="bg">
+    <file>text2.png</file>
+    <file>text.png</file>
+    <file>返回.png</file>
+    <file>对比.png</file>
+    <file>撤销.png</file>
+    <file>恢复.png</file>
+    <file>图片.png</file>
+    <file>1.png</file>
+    <file>2.png</file>
+    <file>bg1.png</file>
+    <file>bg.png</file>
+  </qresource>
+</RCC>
